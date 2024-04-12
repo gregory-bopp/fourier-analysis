@@ -1,0 +1,73 @@
+# Select directories
+references/
+data/
+
+fig/*
+!fig/.gitkeep
+
+# Select files
+*scratch.py
+TODO.md
+
+
+# VSCode files
+*.code-workspace
+*.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# C++
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Compiled binaries
+*.exe
+*.out
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Binary file types
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+*.tif
+*.tiff
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.zip
+*.rar
+*.tar
+*.gz
+*.bz2
+*.7z
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+*.ogg
+*.exe
+*.dll
+*.class
