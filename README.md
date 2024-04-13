@@ -12,7 +12,7 @@ This module animates the discrete Fourier transform (DFT) of a complex sequence 
 
 ![](assets/lissajous.gif)
 
-2. **Spectral Derivative**: Taking a numerical derivative of a function $f(x)$ can sometimes be more stable when operating in the frequency domain. If $\mathcal{F}(f)(x) \hat{f}(\omega)$, is the Fourier transform of a differentiable function $f(x)$, then $\mathcal{F}(f')(x) = i \omega \hat{f}(\omega)$.
+2. **Spectral Derivative**: Taking a numerical derivative of a function $f(x)$ can sometimes be more stable when operating in the frequency domain. If $\mathcal{F}(f)(x) = \hat{f}(\omega)$ is the Fourier transform of a differentiable function $f(x)$, then $\mathcal{F}(f')(x) = i \omega \hat{f}(\omega)$.
 
 3. **Convolution**: The convolution theorem says that under suitable conditions, convolution of two functions in the time domain is equivalent to pointwise multiplication in the frequency domain. 
 
@@ -24,7 +24,7 @@ git clone https://github.com/gregory-bopp/fourier-transform-python.git
 ```
 2. Install the project dependencies
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 3. Install project library
@@ -34,6 +34,6 @@ pip install fourier
 ```
 
 
-# License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
