@@ -1,6 +1,7 @@
 # Select directories
 references/
 data/
+ignore/
 
 fig/*
 !fig/.gitkeep
